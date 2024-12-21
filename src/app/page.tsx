@@ -2,9 +2,13 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-      <Button> CLick mw</Button>
-      <p className="text-red-500 font-semibold">Nitin</p>
+    <div className="flex gap-4">
+      <Button>Primary</Button>
+      <Button variant="secondary">Secondary</Button>
+      <Button variant="destructive" >Distructive</Button>
+      <Button variant="ghost">Ghost</Button>
+      <Button variant="muted">Muted</Button>
+      <Button variant="teritary">Outline</Button>
     </div>
   );
 }
